@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <style>
+           
+        </style>
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/vidio.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/header2.css">
+        <link rel="stylesheet" href="styles/shorts.css">
+
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="left-section">
+                <div class="hamburger-menu-button">
+                    <img  class="hamburger-menu"
+                src="icons/hamburger-menu.svg">
+                </div>
+                <img class="youtube-logo"
+                src ="icons/youtube-logo.svg">    
+            </div>
+            
+        
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g><path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path></g></svg></div>
+                <div class="sidebar-text">Home</div>
+            </div>
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg></div>
+                <div class="sidebar-text">Shorts</div>
+
+            </div>
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path></svg></div>
+                <div class="sidebar-text">Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 9.35 15 12l-5 2.65zM12 7a5 5 0 105 5 5 5 0 00-5-5m0-1a6 6 0 11-6 6 6 6 0 016-6zm0-3a9 9 0 109 9 9 9 0 00-9-9m0-1A10 10 0 112 12 10 10 0 0112 2z"></path></svg></div>
+                <div class="sidebar-text">Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg></div>
+                <div class="sidebar-text">Library</div>
+
+            </div>
+            <div class="sidebar-link">
+                <div style="width: 38%; height: 38%; fill: currentcolor;"><svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M17 18v1H6v-1h11zm-.5-6.6-.7-.7-3.8 3.7V4h-1v10.4l-3.8-3.8-.7.7 5 5 5-4.9z"></path></svg></div>
+                <div class="sidebar-text">Downloads</div>
+            </div>
+        </div>    
+        
+        
+
+            <div class="middle-section">
+                <input class="search-bar"type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon"src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img  class="voice-search-icon"src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+            
+            <div class="right-section">
+                <button class="upload-button">
+                    <div class="upload-button-container">
+                        <img class="upload-icon"src="icons/upload.svg">
+                        <div class="tooltip">Create</div>
+                    </div>
+                </button>
+                <div class="notification-button-container">
+                    <button class="notification-button">
+                        <div class="notification-button-container">
+                            <img class="notification-icon" src="icons/notifications.svg">
+                            <div class="tooltip">Notifications</div>
+                        </div>
+                    </button>
+                    <div class="notifications-count">9+</div>
+                </div>
+               
+                <button class="current-user-button">
+                    <img class="current-user-icon" src="icons/useraccount.jpg">
+                </button>
+            </div>
+            
+        </div>
+     <!--Header 2 --> 
+        <div class="header2">
+            <div class="header2-section">
+                
+                    <button class="header2-button">
+                        <p class="header2-text">All</p>
+                    </button>
+             
+              
+                    <button class="header2-button">
+                        <p class="header2-text">Music</p>
+                        
+                    </button>
+                
+                
+                    <button class="header2-button">
+                        <p class="header2-text">Mixes</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Computers</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Chill-out music</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Editing</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Live</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Podcast</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Contemporary R&B</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Graphic Design</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Moon</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Smartphone</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">News</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Data Structures</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Java</p>
+                    </button>
+                    <button class="header2-button">
+                        <p class="header2-text">Recently upload</p>
+                    </button>
+                
+
+            </div>
+        </div>
+        
+        
+        <div class="vidio-grid">
+            
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (1).webp">
+                    <div class="vidio-time">6:31:24</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/1.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">HTML & CSS Full Course - Beginner to Pro</p>
+                        <p class="vidio-author">SuperSimpleDev</p>
+                        <p class="vidio-stats">6M views&#183;1 year ago</p>
+                    </div>
+                    
+                    
+                </div>
+             
+            </div>
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (2).webp">
+                    <div class="vidio-time">1:08:05</div>
+                </div>
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/2.jpg">
+                    </div>
+                    <div class="vidio-info">
+                        <p class="vidio-title">Productivity + Focus Boost Music 2022 🔺 #33</p>
+                        <p class="vidio-author">FilFar</p>
+                        <p class="vidio-stats">223K views&#183;1 year ago</p>
+        
+                    </div>
+                </div>
+             </div>
+    
+             <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (3).webp">
+                    <div class="vidio-time">59:04</div>
+                </div>
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/3.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">[COPYRIGHT FREE] 1H Study Music & Ambience (Oppenheimer Style)</p>
+                        <p class="vidio-author">SuperSimpleDev</p>
+                        <p class="vidio-stats">125K views&#183;4 weeks ago</p>
+                    </div>
+                    
+                    
+                </div>
+             
+            </div>
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (4).webp">
+                    <div class="vidio-time">10:58</div>
+                </div>
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/4.jpg">
+                    </div>
+                    <div class="vidio-info">
+                        <p class="vidio-title">Productivity + Focus Boost Music 2022 🔺 #33</p>
+                        <p class="vidio-author">FilFar</p>
+                        <p class="vidio-stats">223K views&#183;1 year ago</p>
+        
+                    </div>
+                </div>
+             </div>
+    
+             <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (5).webp">
+                    <div class="vidio-time">2:35</div>
+                </div>
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/5.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">My Biggest Studying Mistake - The Feynman Technique</p>
+                        <p class="vidio-author">Zach Highley
+                        </p>
+                        <p class="vidio-stats">2.7M views&#183;1 year ago</p>
+                    </div>
+                    
+                    
+                </div>
+             
+            </div>
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (6).webp">
+                    <div class="vidio-time">2:10</div>
+                </div>
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/6.jpg">
+                    </div>
+                    <div class="vidio-info">
+                        <p class="vidio-title">Productivity + Focus Boost Music 2022 🔺 #33</p>
+                        <p class="vidio-author">FilFar</p>
+                        <p class="vidio-stats">223K views&#183;1 year ago</p>
+        
+                    </div>
+                </div>
+             </div>
+
+             <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (7).webp">
+                    <div class="vidio-time">8:40</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/7.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">NEVER STOP | A Blender Car Short Film (4K)
+                        </p>
+                        <p class="vidio-author">intrlude</p>
+                        <p class="vidio-stats">67k views&#183;3 months ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (8).webp">
+                    <div class="vidio-time">11:24</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/8.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">1 Year of Coding in 5 Minutes (Computer Science First Year)</p>
+                        <p class="vidio-author">Frying Pan</p>
+                        <p class="vidio-stats">4M views&#183;2 year ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (9).webp">
+                    <div class="vidio-time">10:00</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/9.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">Michio Kaku: Quantum computing is the next revolution</p>
+                        <p class="vidio-author">Big Think</p>
+                        <p class="vidio-stats">429k views&#183;6 days ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (10).webp">
+                    <div class="vidio-time">5:31</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/10.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">The Weeknd - After Hours (Music Video)</p>
+                        <p class="vidio-author">Music Drenalin</p>
+                        <p class="vidio-stats">5M views&#183;3 year ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (11).webp">
+                    <div class="vidio-time">6:31:24</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/11.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">WhistlinDiesel's TT Lamborghini x TT R8 [4K]</p>
+                        <p class="vidio-author">Woyshnis Media</p>
+                        <p class="vidio-stats">2.2M views&#183;1 year ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="vidio-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="images/thumbnail (12).webp">
+                    <div class="vidio-time">5:10</div>
+                </div>
+                
+                <div class="vidio-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel/12.jpg">
+                    </div> 
+                    <div class="vidio-info">
+                        <p class="vidio-title">Ariana Grande - Honeymoon Avenue (Live from London)</p>
+                        <p class="vidio-author">Ariana Grande</p>
+                        <p class="vidio-stats">751K views&#183;8 hours ago</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+            
+                
+
+                
+             
+            
+
+        </div>
+        <hr class="shorts-line">
+<!-- Horizontal Line Shorts Start -->
+        <div class="shorts-logo">
+            <div style="width: 10%; height: 10%; fill: currentcolor; "><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                <g>
+                  <path d="M17.77,10.32l-1.2-.5L18,9.06a3.74,3.74,0,0,0-3.5-6.62L6,6.94a3.74,3.74,0,0,0,.23,6.74l1.2.49L6,14.93a3.75,3.75,0,0,0,3.5,6.63l8.5-4.5a3.74,3.74,0,0,0-.23-6.74Z" fill="red"></path>
+                  <polygon points="10 14.65 15 12 10 9.35 10 14.65" fill="#fff"></polygon>
+                </g>
+              </svg>
+              
+            </div>
+            <p class="shorts-logo-text">Shorts</p>
+            
+        </div>
+
+        <div class="shorts-grid">
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/1.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">What a Type V Civilization Can Do...
+                            
+                        </p>
+                        <p class="shorts-stats">
+                            1.7M views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/2.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">Learn to code with just your phone! 💪
+                         
+                        </p>
+                        <p class="shorts-stats">
+                            9.1K views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/3.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">Upgrading a Mac Pro!! Worth?
+                              
+                        </p>
+                        <p class="shorts-stats">
+                            12M views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/4.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">The beauty of Land Rover Defender
+                            
+                        </p>
+                        <p class="shorts-stats">
+                            1.2M views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/5.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">Chandrayaan-3 Lands On Moon
+                            
+                        </p>
+                        <p class="shorts-stats">
+                            2.2M views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class=""shorts-preview>
+                <div class="shorts-thumbnail-row">
+                    <img class="shorts-thumbnail" src="shortsimages/1.webp">
+                </div>
+                <div class="shorts-info-grid">
+                    <div class="shorts-info">
+                        <p class="shorts-title">India Just Landed on the Moon!                         
+                            
+                        </p>
+                        <p class="shorts-stats">
+                            437K views
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <!-- Horizontal Line Shorts End -->
+        <hr class="shorts-line-end">
+        
+        
+
+    </body>
+</html>

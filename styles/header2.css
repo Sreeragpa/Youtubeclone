@@ -1,0 +1,50 @@
+.header2{
+    height:45px;  
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 55px;;
+    left: 55px;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+    }
+    .header2-section{
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        column-gap: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        white-space: nowrap;
+        
+    }
+    .header2-button{
+        
+        height: 35px;
+        border-radius: 8px;
+        border-width: 0px;
+        cursor: pointer;
+        
+    }
+
+    .header2-button:hover{
+        background-color: rgb(234, 232, 232);
+        
+    }
+    .header2-button:focus{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        
+    }
+    
+    .header2-text{
+        font-size: 14px;
+        font-family: roboto,Arial;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+    
+    
+    
+  
